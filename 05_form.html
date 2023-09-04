@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+</head>
+
+<body>
+	<h1>Form</h1>
+
+	<form>
+		<div>
+			<label for="text0">Text</label>
+			<input type="text" id="text0" value="Текст по умолчанию" readonly>
+		</div>
+
+		<div>
+			<label for="text1">Text</label>
+			<input type="text" id="text1" value="Текст по умолчанию">
+		</div>
+
+		<div>
+			<label for="text2">Email</label>
+			<input type="email" id="text2" placeholder="Введите email">
+		</div>
+
+		<div>
+			<label for="text3">Password</label>
+			<input type="password" id="text3">
+		</div>
+
+		<div>
+			<label for="text4">Number</label>
+			<input type="number" id="text4" min="0">
+		</div>
+
+		<div>
+			<label for="text5">Range</label>
+			<input type="range" id="text5" min="0" max="10" step="1">
+		</div>
+
+		<div>
+			<label for="text5">Date</label>
+			<input type="date" id="text5">
+		</div>
+
+		<div>
+			<label for="text6">Color</label>
+			<input type="color" id="text6">
+		</div>
+
+
+		<div>
+			<label for="massage">Сообщение</label>
+			<br>
+			<textarea id="massage" cols="15" rows="10"></textarea>
+		</div>
+
+		<div>
+			<label for="text7">Sex</label>
+			<select id="text7">
+				<option value="male">M</option>
+				<option value="female" selected>W</option>
+				<option value="other">O</option>
+			</select>
+		</div>
+
+		<div>
+			<label>Radio</label>
+			<input type="radio" name="work"> 1
+			<input type="radio" name="work"> 5
+			<input type="radio" name="work"> 10+
+			<input type="radio" name="work"> 2
+		</div>
+
+		<div>
+			<label>Checkbox</label>
+			<input type="checkbox" name="food"> bread
+			<input type="checkbox" name="food"> milk
+			<input type="checkbox" name="food"> woter
+			<input type="checkbox" name="food"> chees
+		</div>
+
+		<!-- <input type="submit" value="Отправить форму"> -->
+
+		<button type="submit">Отправить форму</button>
+
+	</form>
+</body>
+
+</html>
