@@ -1,0 +1,23 @@
+.border-1 {
+	/* border-width: 5px;
+	border-style: solid;
+	border-color: #48D1CC; */
+
+	border: 5px solid #48D1CC;
+	/* border-style: dashed; */
+	border-radius: 15px;
+}
+
+.border-2 {
+	border-bottom: 2px solid darkcyan;
+	border-top: 2px solid darkcyan;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+
+.border-3 {
+	border-left: 6px solid red;
+	background: lightsalmon;
+	padding-left: 10px;
+	color: #fff;
+}
